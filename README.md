@@ -16,7 +16,7 @@ A PHP API for interacting with the Tron Protocol
 
 The following versions of PHP are supported by this version.
 
-* PHP 7.4
+* PHP 8.1
 
 ## Example Usage
 
@@ -34,7 +34,7 @@ try {
 }
 
 
-$this->setAddress('..');
+$tron->setAddress('..');
 //Balance
 $tron->getBalance(null, true);
 
